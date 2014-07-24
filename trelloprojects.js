@@ -81,7 +81,7 @@ function ListCard(el) {
             if(!$title[0])
                 return;
 
-            var title = $title[0].childNodes[1].textContent;
+            var title = $title[0].childNodes[1].childNodes[1].textContent;
             if (title)
                 el._title = $title;
 
